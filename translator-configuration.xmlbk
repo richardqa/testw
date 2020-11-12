@@ -258,6 +258,14 @@
         <assignment name="severity" type="field" >
           <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.4\.0.*" matches="^(?!Warning|Minor|Major|Critical).*$" result="Indeterminate" />
         </assignment>
+      </mapping>  
+      <mapping>
+        <assignment name="uei" type="field" >
+          <value type="constant" result="uei.opennms.org/NetEco/TRAP" />
+        </assignment>
+        <assignment name="severity" type="field" >
+          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.9\.0.*" matches="^(?!Warning|Minor|Major|Critical).*$" result="Indeterminate" />
+        </assignment>
       </mapping>
      </mappings>
     </event-translation-spec>
