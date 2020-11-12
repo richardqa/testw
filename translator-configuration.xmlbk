@@ -215,48 +215,48 @@
      </mappings>
     </event-translation-spec>
 
-    <!-- This is the Severity translation for U2000 Traps
+    <!-- This is the Severity translation for NetEco Traps
          -->
     <event-translation-spec uei="uei.opennms.org/NetEco/TRAP:pretranslated" >
      <mappings>
       <mapping>
         <assignment name="uei" type="field" >
-          <value type="constant" result="uei.opennms.org/U2000/TRAP" />
+          <value type="constant" result="uei.opennms.org/NetEco/TRAP" />
         </assignment>
         <assignment name="severity" type="field" >
-          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.1\.7\.1\.7\.0.*" matches="Critical" result="Critical" />
+          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.1\.0.*" matches="Critical" result="Critical" />
         </assignment>
       </mapping>
       <mapping>
         <assignment name="uei" type="field" >
-          <value type="constant" result="uei.opennms.org/U2000/TRAP" />
+          <value type="constant" result="uei.opennms.org/NetEco/TRAP" />
         </assignment>
         <assignment name="severity" type="field" >
-          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.1\.7\.1\.7\.0.*" matches="Major" result="Major" />
+          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.27\.0.*" matches="Major" result="Major" />
         </assignment>
       </mapping>
       <mapping>
         <assignment name="uei" type="field" >
-          <value type="constant" result="uei.opennms.org/U2000/TRAP" />
+          <value type="constant" result="uei.opennms.org/NetEco/TRAP" />
         </assignment>
         <assignment name="severity" type="field" >
-          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.1\.7\.1\.7\.0.*" matches="Minor" result="Minor" />
+          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.28\.0.*" matches="Minor" result="Minor" />
         </assignment>
       </mapping>
       <mapping>
         <assignment name="uei" type="field" >
-          <value type="constant" result="uei.opennms.org/U2000/TRAP" />
+          <value type="constant" result="uei.opennms.org/NetEco/TRAP" />
         </assignment>
         <assignment name="severity" type="field" >
-          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.1\.7\.1\.7\.0.*" matches="Warning" result="Warning" />
+          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.3\.0.*" matches="Warning" result="Warning" />
         </assignment>
       </mapping>
       <mapping>
         <assignment name="uei" type="field" >
-          <value type="constant" result="uei.opennms.org/U2000/TRAP" />
+          <value type="constant" result="uei.opennms.org/NetEco/TRAP" />
         </assignment>
         <assignment name="severity" type="field" >
-          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.1\.7\.1\.7\.0.*" matches="^(?!Warning|Minor|Major|Critical).*$" result="Indeterminate" />
+          <value type="parameter" name="~^\.1\.3\.6\.1\.4\.1\.2011\.2\.15\.2\.4\.3\.3\.4\.0.*" matches="^(?!Warning|Minor|Major|Critical).*$" result="Indeterminate" />
         </assignment>
       </mapping>
      </mappings>
